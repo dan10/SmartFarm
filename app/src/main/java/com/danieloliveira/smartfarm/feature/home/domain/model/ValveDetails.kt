@@ -1,6 +1,8 @@
 package com.danieloliveira.smartfarm.feature.home.domain.model
 
-data class Valve(
+import java.time.LocalDateTime
+
+data class ValveDetails(
     /**
      * Id of the [Valve]
      */
@@ -16,5 +18,17 @@ data class Valve(
     /**
      * Name of the plant is Associated
      */
-    val plantName: String
+    val plantName: String,
+    /**
+     * Url of Picture of the plant
+     */
+    val plantPictureUrl: String,
+    /**
+     * Info about last time the plant was irrigated
+     */
+    val lastTimeIrrigated: LocalDateTime,
+    /**
+     *
+     */
+    val irrigationRoutines: List<IrrigationRoutine>
 )
