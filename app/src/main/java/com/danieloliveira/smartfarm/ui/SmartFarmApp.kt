@@ -4,7 +4,9 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 
 @Composable
-fun SmartFarmApp() {
+fun SmartFarmApp(
+    appState: SmartFarmState
+) {
 
     Surface {
 

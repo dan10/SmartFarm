@@ -1,4 +1,4 @@
-package com.danieloliveira.smartfarm.ui.theme
+package com.danieloliveira.smartfarm.core.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

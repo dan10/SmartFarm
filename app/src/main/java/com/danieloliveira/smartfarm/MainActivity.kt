@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.danieloliveira.smartfarm.ui.theme.SmartFarmTheme
+import com.danieloliveira.smartfarm.core.designsystem.theme.SmartFarmTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,4 +1,4 @@
-package com.danieloliveira.smartfarm.ui.theme
+package com.danieloliveira.smartfarm.core.designsystem.theme
 
 import android.app.Activity
 import android.os.Build
